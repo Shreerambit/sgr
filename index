@@ -1,0 +1,252 @@
+<!-- Shreeram Bhajantri, [1/31/2026 6:53 PM] -->
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Shreeram Bhajantri, a BCA student aspiring to be a software developer and competitive exam aspirant.">
+    <meta name="keywords" content="Shreeram Bhajantri, BCA, Software Developer, Competitive Exams, YouTube Creator">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Shreeram Bhajantri - Portfolio">
+    <meta property="og:description" content="Aspiring Software Developer and Competitive Exam Aspirant">
+    <meta property="og:image" content="assets/images/profile.jpg"> <!-- Placeholder -->
+    <meta property="og:url" content="https://yourusername.github.io/portfolio">
+    <meta property="og:type" content="website">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon"> <!-- Placeholder -->
+    <title>Shreeram Bhajantri - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div id="scroll-progress"></div>
+
+    <!-- Header/Navbar -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Shreeram Bhajantri</a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#exams">Exams</a></li>
+                    <li><a href="#youtube">YouTube</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mode-toggle">
+                    <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                        <span class="icon">🌙</span>
+                    </button>
+                </div>
+                <div class="hamburger" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container">
+                <h1>BCA Student | Aspiring Software Developer | Competitive Exam Aspirant</h1>
+                <p>Hello, I'm Shreeram Bhajantri from India. I'm building my technical foundations while preparing for government exams and creating educational content.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="resume.pdf" class="btn secondary" download>Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section reveal">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>I'm Shreeram Bhajantri, a BCA student from India with a strong academic background, including good marks in 10th and 12th. I'm passionate about programming, operating systems, databases, and ethical hacking. Currently in the early semesters of BCA, I'm focusing on building solid technical foundations.</p>
+                    <p>My interests include AI tools, automation, graphic design, and digital content creation. My career goal is to become a skilled software/IT professional, create educational and tech-related digital products, and qualify for competitive government exams alongside my IT growth.</p>
+
+<!-- Shreeram Bhajantri, [1/31/2026 6:53 PM] -->
+<div class="education">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>Bachelor of Computer Applications (BCA) - Currently studying (early semesters)</li>
+                            <li>Strong academic background with good marks in 10th & 12th</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section reveal">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming</h3>
+                        <ul>
+                            <li>C (arrays, recursion, sorting algorithms)</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Core CS</h3>
+                        <ul>
+                            <li>Computer Fundamentals</li>
+                            <li>Operating Systems (Process, Memory, Scheduling, IPC, Multithreading)</li>
+                            <li>DBMS basics</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript (beginner to intermediate)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>GitHub</li>
+                            <li>Kali Linux (basics for ethical hacking)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Exam Knowledge</h3>
+                        <ul>
+                            <li>RRB, SSC syllabus familiarity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section reveal">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>BCA Notes Website</h3>
+                        <p>A simple website sharing BCA syllabus notes in easy language.</p>
+                        <p>Tech: HTML, CSS, JS</p>
+                        <a href="https://github.com/placeholder/bca-notes" target="_blank">GitHub</a>
+                        <a href="https://placeholder-live-demo.com" target="_blank">Live Demo</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>OS Concepts Explainer</h3>
+                        <p>Interactive explainer for operating system concepts.</p>
+                        <p>Tech: HTML, CSS, JS</p>
+                        <a href="https://github.com/placeholder/os-explainer" target="_blank">GitHub</a>
+                        <a href="https://placeholder-live-demo.com" target="_blank">Live Demo</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Simple C Programs Repository</h3>
+                        <p>Collection of C programs demonstrating algorithms.</p>
+                        <p>Tech: C</p>
+                        <a href="https://github.com/placeholder/c-programs" target="_blank">GitHub</a>
+                    </div>
+                    <div class="project-card">
+
+<!-- Shreeram Bhajantri, [1/31/2026 6:53 PM] -->
+<h3>AI Chatbot (Future)</h3>
+                        <p>Planning an AI-based chatbot for educational queries.</p>
+                        <p>Tech: JS, AI APIs</p>
+                        <a href="https://github.com/placeholder/ai-chatbot" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exams Section -->
+        <section id="exams" class="exams section reveal">
+            <div class="container">
+                <h2>Competitive Exams Preparation</h2>
+                <p>Alongside my IT studies, I'm preparing for government competitive exams to secure a stable career path.</p>
+                <div class="exams-grid">
+                    <div class="exam-card">
+                        <h3>RRB NTPC</h3>
+                        <p>Focusing on general awareness, math, and reasoning for Railway Recruitment Board Non-Technical Popular Categories exam.</p>
+                    </div>
+                    <div class="exam-card">
+                        <h3>RRB Group D</h3>
+                        <p>Preparing for physical efficiency tests and written exams for Group D positions in Railways.</p>
+                    </div>
+                    <div class="exam-card">
+                        <h3>SSC Exams</h3>
+                        <p>Studying for Staff Selection Commission exams, emphasizing quantitative aptitude and English.</p>
+                    </div>
+                </div>
+                <p>This preparation showcases my discipline and readiness for competitive environments.</p>
+            </div>
+        </section>
+
+        <!-- YouTube Section -->
+        <section id="youtube" class="youtube section reveal">
+            <div class="container">
+                <h2>YouTube & Content Creation</h2>
+                <p>I'm a YouTube content creator focusing on viral trends and educational content.</p>
+                <div class="youtube-grid">
+                    <div class="youtube-card">
+                        <h3>Viral Wave</h3>
+                        <p>Channel for trending and viral content.</p>
+                        <a href="https://youtube.com/placeholder-viral-wave" target="_blank">Visit Channel</a>
+                    </div>
+                    <div class="youtube-card">
+                        <h3>Educational BCA Channel</h3>
+                        <p>Explaining BCA syllabus in simple language.</p>
+                        <a href="https://youtube.com/placeholder-bca-edu" target="_blank">Visit Channel</a>
+                    </div>
+                </div>
+                <p>Through content creation, I aim to share knowledge and engage with audiences.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section reveal">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST"> <!-- Replace with actual Formspree ID -->
+                    <input type="text" name="name" placeholder="Your Name" required aria-label="Name">
+                    <input type="email" name="email" placeholder="Your Email" required aria-label="Email">
+                    <textarea name="message" placeholder="Your Message" required aria-label="Message"></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+                <div id="form-status"></div>
+                <div class="social-links">
+                    <a href="https://youtube.com/placeholder" target="_blank" aria-label="YouTube"><span>YT</span></a>
+                    <a href="https://github.com/placeholder" target="_blank" aria-label="GitHub"><span>GH</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!-- Shreeram Bhajantri, [1/31/2026 6:53 PM] -->
+<!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; Shreeram Bhajantri – All Rights Reserved</p>
+            <div class="social-icons">
+                <a href="https://youtube.com/placeholder" target="_blank" aria-label="YouTube"><span>YT</span></a>
+                <a href="https://github.com/placeholder" target="_blank" aria-label="GitHub"><span>GH</span></a>
+            </div>
+            <button id="back-to-top" aria-label="Back to Top">↑</button>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
